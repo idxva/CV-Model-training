@@ -48,19 +48,6 @@ The only thing that touches the network is the one-time library download when yo
 
 Browsers only allow camera access over a secure connection (`https://` or `localhost`). Opening the file directly (`file://...`) will work on most desktop browsers, but **will likely block the camera on mobile browsers**, especially iOS Safari.
 
-To use it on your phone, host the file somewhere with `https://`. Two free, no-code options:
-
-### Option A: Netlify Drop (fastest, no account needed)
-1. Go to [app.netlify.com/drop](https://app.netlify.com/drop) on your laptop.
-2. Drag `object-recognizer.html` into the browser window.
-3. Netlify gives you a live `https://...netlify.app` link instantly.
-4. Open that link on your phone.
-
-### Option B: GitHub Pages (better if you'll keep editing it)
-1. Create a free GitHub repository.
-2. Upload the file and rename it to `index.html`.
-3. Go to **Settings → Pages**, set the source to your main branch.
-4. GitHub gives you a `https://yourusername.github.io/reponame` link within a minute or two.
 
 ## How to use it
 
